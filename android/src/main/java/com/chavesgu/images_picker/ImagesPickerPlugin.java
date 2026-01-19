@@ -316,7 +316,8 @@ public class ImagesPickerPlugin implements FlutterPlugin, MethodCallHandler, Act
 
       @Override
       public void onCancel() {
-
+        // 取消
+        _result.success(null);
       }
     });
   }
